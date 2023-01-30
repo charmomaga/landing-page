@@ -1,82 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Golden Ratio Chocolate</title>
+    <link rel="stylesheet" href="styles.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Golden Ratio Chocolate</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-  <header>
-    <div class="navbar-left logo">
-      <a href="">
-        The Golden Ratio
-      </a>
-    </div>
-    <nav class="navbar-right">
-      <ul class="menu">
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Shop Now</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <div class="main">
-    <div class="hero-section">
-      <div>
-        <h1 class="headline">Indulge in the Perfect Balance of Taste and Quality</h1>
-        <h4 class="subheading">Discover the unique and complex flavors of our handcrafted bean-to-bar chocolate</h4>
-        <button>Shop Now</button>
+  <body>
+    <header>
+      <div class="header-container">
+        <a href="" class="logo">The Golden Ratio</a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-      <div>
-        <img src="" alt="hero image">
-      </div>
-    </div>
+    </header>
 
-    <div class="benefits">
-      <h2>Why our chocolate stands out</h2>
-      <div>
-        <div>
-          <img src="" alt="Benefit One">
-          <p>No artificial flavors, colors or preservatives added</p>
-        </div>
-        <div>
-          <img src="" alt="Benefit Two">
-          <p>Bean-to-bar production process to maintain the integrity of the cocoa beans</p>
-        </div>
-        <div>
-          <img src="" alt="Benefit Three">
-          <p>Use of traditional techniques to create unique and complex flavors</p>
+    <div class="main">
+      <div class="hero-container">
+        <div class="hero">
+          <div class="hero-left">
+            <h1 class="headline">
+              Indulge in the Perfect Balance of Taste & Quality
+            </h1>
+            <p class="subheading">
+              Discover the unique and complex flavors of our handcrafted
+              chocolate
+            </p>
+            <button>Shop Now</button>
+          </div>
+          <div class="hero-right">
+            <img src="./img/hero-image.png" alt="hero image" />
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="testimonials">
-      <p>It's hard to believe this bar is 90% cocoa, but it's the perfect balance of intensity, character, and sweetness. I highly recommend it, especially for those looking for low-sugar dark chocolate.</p>
-      <p>Ada Sharpe, IICT Level 1 & 2 Chocolate Taster</p>
-    </div>
-
-    <div class="CTA">
-      <div class="cta-box">
-        <div>
-          <h4>Get your 15% Off on Your First Order</h4>
-          <p>Stay updated on our latest chocolate creations and special offers by subscribing to our newsletter</p>
+      <div class="info-container">
+        <div class="info">
+          <h2>Why our chocolate stands out</h2>
+          <div class="benefits">
+            <div class="benefits-item">
+              <img
+                src="https://images.unsplash.com/photo-1587244501485-95a649c8dea1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+                alt="Benefit Two"
+              />
+              <p>
+                Bean-to-bar process to maintain the integrity of the cocoa beans
+              </p>
+            </div>
+            <div class="benefits-item">
+              <img
+                src="https://images.unsplash.com/photo-1493925410384-84f842e616fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1365&q=80"
+                alt="Benefit Three"
+              />
+              <p>
+                Use of traditional techniques to create unique and complex
+                flavors
+              </p>
+            </div>
+            <div class="benefits-item">
+              <img
+                src="https://images.unsplash.com/photo-1576186725671-1b44cc7f424c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1365&q=80"
+                alt="Benefit One"
+              />
+              <p>No artificial flavors, colors or preservatives added</p>
+            </div>
+          </div>
         </div>
-        <div>
-          <button>Sign Up</button>
+      </div>
+
+      <div class="testimonials">
+        <figure class="quote">
+          <blockquote>
+            It's hard to believe this bar is 90% cocoa, but it's the perfect
+            balance of intensity, character, and sweetness. I highly recommend
+            it, especially for those looking for low-sugar dark chocolate.
+          </blockquote>
+          <figcaption>
+            &mdash; Coco, <cite>IICCT Level 1 & 2 Chocolate Taster</cite>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="cta-container">
+        <div class="cta">
+          <div class="cta-left">
+            <h4>Get your 15% Off on Your First Order</h4>
+            <p>
+              Stay updated on our latest chocolate creations and special offers
+              by subscribing to our newsletter
+            </p>
+          </div>
+          <div class="cta-right">
+            <button>Sign Up</button>
+          </div>
         </div>
       </div>
     </div>
 
-  </div>
-
-  <footer>
-    Copyright 2023. The Golden Ratio Chocolate
-  </footer>
-</body>
-
+    <footer>Copyright 2023. The Golden Ratio Chocolate</footer>
+  </body>
 </html>
